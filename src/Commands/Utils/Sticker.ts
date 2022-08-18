@@ -29,7 +29,7 @@ export default class extends BaseCommand {
         const sticker = new Sticker(buffer, {
             categories,
             pack: pack[1] ? pack[1].trim() : '🤍 Made for you',
-            author: pack[2] ? pack[2].trim() : `${this.client.config.name} 🖤`,
+            author: pack[2] ? pack[2].trim() : `ᥴꫝꫀꪗ-𝙎𝙖𝙣💫🌙🪐✨🖤`,
             quality,
             type:
                 flags.includes('--c') || flags.includes('--crop') || flags.includes('--cropped')
